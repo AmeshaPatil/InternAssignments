@@ -1,4 +1,3 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@ body {
     background-color: #ffffff;
 }
 
-/* Microsoft Navbar */
 .ms-topbar {
     display: flex;
     align-items: center;
@@ -23,49 +21,29 @@ body {
     z-index: 1000;
 }
 
-/* Microsoft Logo */
 .ms-logo img {
     width: 100px;
     height: auto;
-    margin-right: 100px; /* 👈 More space between logo and menu */
+    margin-right: 90px; 
 }
 
-/* Menu Items */
 .ms-menu-item {
-    margin: 0 30px;
+    margin: 0 20px;
     font-size: 14px;
     color: #262626;
     cursor: pointer;
     transition: color 0.3s;
 }
 
-/* Flex Spacer pushes icons to right */
 .ms-spacer {
     flex-grow: 1;
 }
 
-/* Font Awesome Icons */
 .ms-menu-item i {
     font-size: 16px;
 }
 
-/* Hover Effect */
 .ms-menu-item:hover {
     color: #0067b8;
 }
 
-/* Responsive for Mobile */
-@media screen and (max-width: 768px) {
-    .ms-topbar {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .ms-logo {
-        margin-bottom: 10px;
-    }
-
-    .ms-menu-item {
-        margin: 6px;
-    }
-}
