@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Form</title>
+</head>
+
+<body>
+    <h1>Resume Form</h1>
+    <div class="Container">
+        <div class="field">
+            <label for="fieldName">Field Name</label>
+            <br>
+            <input type="text" id="fieldName" class="fieldName" required>
+        </div>
+        <br>
+        <div class="fullName">
+            <label for="Name">Full Name</label>
+            <br>
+            <input type="text" id="Name" class="fullName" required>
+        </div>
+        <br>
+        <div class="emailAddress">
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="email" class="emailAddress" required>
+        </div>
+        <br>
+        <div class="mobileNo">
+            <label for="mobile">Mobile Number</label>
+            <br>
+            <input type="tel" id="mobile" class="mobileNo" required>
+        </div>
+        <br>
+        <div class="DOB">
+            <label for="dob">Date Of Birth</label>
+            <input type="date" id="dob" class="DOB" required>
+        </div>
+        <br>
+        <div class="Gender">
+            <label for="gender">Gender</label>
+            <br>
+            <input type="radio" id="male" name="form-gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="form-gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="form-gender" value="Other">
+            <label for="other">Other</label>
+        </div>
+        <br>
+        <div class="maritalStatus">
+            <label for="maritalStatus">Marital Status</label>
+            <br>
+            <input type="radio" id="married" name="form-marital">
+            <label for="married">Married</label>
+            <input type="radio" id="unmarried" name="form-marital">
+            <label for="unmarried">Unmarried</label>
+            <input type="radio" id="divorced" name="form-marital">
+            <label for="divorced">Divorced</label>
+        </div>
+        <br>
+        <div class="nationality">
+            <label for="Nationality">Nationality</label>
+            <input type="text" id="Nationality" required>
+        </div>
+        <br>
+        <div class="add">
+            <label for="address">Address</label>
+            <textarea id="address" name="form-address" required></textarea>
+        </div>
+        <br>
+        <div class="linkdIn">
+            <label for="linkdInUrl">linkdIn Profile URL</label>
+            <br>
+            <input type="url" id="linkdInUrl" required>
+        </div>
+        <br>
+        <div class="github">
+            <label for="githubUrl">Github Profile URL</label>
+            <br>
+            <input type="url" id="githubUrl" required>
+        </div>
+        <br>
+        <div class="form-photo">
+            <label for="photo">Upload Profile Photo</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required>
+        </div>
+        <br>
+        <div class="form-resume">
+            <label for="resume">Upload Resume (PDF Only)</label>
+            <input type="file" id="resume" name="resume" accept="application/pdf" required>
+        </div>
+        <br>
+        <div class="career-obj">
+            <label for="objective">Career Objective</label>
+            <textarea id="objective" name="objective" required></textarea>
+        </div>
+        <br>
+        <div class="form-qualification">
+            <label for="qualification">Highest Qualification</label>
+            <input type="text" id="qualification" name="qualification" required>
+        </div>
+        <br>
+        <div class="clgName">
+            <label for="college">Name of College / University</label>
+            <input type="text" id="college" name="college" required>
+        </div>
+        <br>
+        <div class="graducation-year">
+            <label for="graduation">Year of Graduation</label>
+            <input type="text" id="graduation" name="graduation" required>
+        </div>
+        <br>
+        <div class="form-skills">
+            <label for="skills">Technical Skills (e.g., HTML, CSS, JS)</label>
+            <textarea id="skills" name="skills" required></textarea>
+        </div>
+        <br>
+        <div class="form-lang">
+            <label for="languages">Programming Languages Known</label>
+            <textarea id="languages" name="languages" required></textarea>
+        </div>
+        <br>
+        <div class="form-cert">
+            <label for="certifications">Certifications (if any)</label>
+            <textarea id="certifications" name="certifications"></textarea>
+        </div>
+        <br>
+        <div class="form-experience">
+            <label for="experience">Work Experience (in Years)</label>
+            <select name="experience" id="experience">
+                <option value="">Experience</option>
+                <option value="NA">NA</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5 or more than 5">5 or more than 5</option>
+            </select>
+        </div>
+        <br>
+        <div class="Company-name">
+            <label for="lastcompany">Last Company Worked At</label>
+            <input type="text" id="lastcompany" name="lastcompany">
+        </div>
+        <br>
+        <div class="Job-Role">
+            <label for="jobrole">Your Job Role / Designation</label>
+            <input type="text" id="jobrole" name="jobrole">
+        </div>
+        <br>
+        <div class="Known-lang">
+            <label for="knownlanguages">Languages Known</label>
+            <input type="text" id="knownlanguages" name="knownlanguages" required>
+        </div>
+        <br>
+        <div class="form-hobbies">
+            <label for="hobbies">Hobbies</label>
+            <textarea id="hobbies" name="hobbies"></textarea>
+        </div>
+        <br>
+        <div class="checkbox">
+            <input type="checkbox" id="declaration" name="declaration" required>
+            <label for="declaration">I hereby declare that the above information is true and correct to the best of my
+                knowledge.</label>
+        </div>
+        <br>
+        <input type="submit" value="Submit Resume">
+    </div>
+</body>
+</html>
