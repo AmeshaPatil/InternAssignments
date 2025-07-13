@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Coffee House</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Coffee House</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown">Varieties</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Cappuccino</a></li>
+                            <li><a class="dropdown-item" href="#">Espresso (Short Black)</a></li>
+                            <li><a class="dropdown-item" href="#">Double Espresso (Doppio)</a></li>
+                            <li><a class="dropdown-item" href="#">Short Macchiato</a></li>
+                            <li><a class="dropdown-item" href="#">Long Macchiato</a></li>
+                            <li><a class="dropdown-item" href="#">Ristretto</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-warning" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://wallpaperaccess.com/full/1889743.jpg" class="d-block w-100" alt="coffee-house">
+            </div>
+            <div class="carousel-item">
+                <img src="https://wallpaperaccess.com/full/373999.jpg" class="d-block w-100" alt="Tables">
+            </div>
+            <div class="carousel-item">
+                <img src="https://wallpaperaccess.com/full/373972.jpg" class="d-block w-100" alt="coffee">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">About Us</h2>
+            <p class="text-center px-4">
+                At our coffee house, every cup tells a story — crafted with passion, served with
+                warmth. We blend rich flavors and cozy vibes to create your perfect coffee escape.
+            </p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Our Products</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://images.wallpaperscraft.com/image/single/coffee_cappuccino_cup_136699_3840x2400.jpg"
+                            class="card-img-top" alt="Cappuccino">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <p class="card-text">Cappuccino is a classic Italian coffee made with equal parts espresso,
+                                steamed milk, and milk foam. It’s known for its rich flavor and creamy texture, topped
+                                with a smooth, velvety froth. Often enjoyed in the morning, it offers the perfect
+                                balance of bold espresso and silky milk.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://images.fineartamerica.com/images-medium-large-5/cafe-espresso-coffee-short-black-stuart-ashley.jpg"
+                            class="card-img-top" alt="Espresso (Short Black)">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso (Short Black)</h5>
+                            <p class="card-text">A rich and intense coffee shot made by forcing hot water through finely
+                                ground coffee beans. Known for its bold flavor and velvety crema, espresso is the
+                                foundation of many coffee drinks — perfect for those who love a strong, pure coffee
+                                experience.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://secangkir.id/wp-content/uploads/2024/10/Doppio-Double-Espresso.jpg"
+                            class="card-img-top" alt="Double Espresso (Doppio)">
+                        <div class="card-body">
+                            <h5 class="card-title">Double Espresso (Doppio)</h5>
+                            <p class="card-text">A Double Espresso, or Doppio, is a bold and intense shot made with
+                                twice the amount of coffee as a regular espresso. Perfect for those who love a rich,
+                                concentrated caffeine kick.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="http://www.coffeeshots.com.au/wp-content/uploads/IMG_1833.jpg" class="card-img-top"
+                            alt="Short Macchiato">
+                        <div class="card-body">
+                            <h5 class="card-title">Short Macchiato</h5>
+                            <p class="card-text">"A Short Macchiato is a bold espresso shot 'stained' with a small
+                                amount of steamed milk or foam. Perfect for those who enjoy a strong coffee flavor with
+                                a smooth finish."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="http://www.historyofcoffee.net/images/historyofcoffee/picture-of-long-macchiato-coffee.jpg"
+                            class="card-img-top" alt="Long Macchiato">
+                        <div class="card-body">
+                            <h5 class="card-title">Long Macchiato</h5>
+                            <p class="card-text">A Long Macchiato is a double shot of espresso 'stained' with a dash of
+                                steamed milk or foam. Bold, rich, and aromatic — perfect for those who enjoy a strong
+                                coffee with just a hint of creaminess.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://blogstudio.s3.theshoppad.net/coffeeheroau/10897ed60052f2aa1a495aa1c02a8ce6.jpg"
+                            class="card-img-top" alt="Ristretto">
+                        <div class="card-body">
+                            <h5 class="card-title">Ristretto</h5>
+                            <p class="card-text">Ristretto is a short shot of espresso made with finely ground beans
+                                and less water, resulting in a richer, more concentrated flavor. It’s bold, intense, and
+                                perfect for true coffee lovers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Contact Us</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-12">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-success">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-success text-white text-center py-3">
+        <div class="container">
+            &copy; 2025 Coffee House. Developed by Amesha.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
